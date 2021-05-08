@@ -1,0 +1,50 @@
+body {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../imgs/background.jpg");
+
+
+    /* Set a specific height */
+    height: 50%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: repeat-y;
+    background-size: cover;
+    position: relative;
+}
+
+.semi-transparent-jumbotron-bg{
+    background-color: rgba(227, 227, 227, 0.75);
+}
+
+.required {
+    color:red;
+}
+
+.btn-success{
+    background-color: #228b22;
+    border-color: #228b22;
+}
+
+.btn-success:hover{
+    background-color: #0a602c;
+    border-color: #0a602c;
+}
+
+.btn-warning{
+    background-color: #ff8c00;
+    border-color: #ff8c00;
+}
+
+.btn-warning:hover{
+    background-color: #c66b00;
+    border-color: #c66b00;
+}
+
+.not-visible{
+    display: none;
+}
+
+.invalid-tooltip{
+    top: unset;
+}
